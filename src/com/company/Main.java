@@ -17,11 +17,11 @@ public class Main {
             temp[i] = inputScanner.nextDouble();
             
         }
-        double summarizedTemp =0;
+        double summTemp =0;
         for( double temperature:temp){
-            summarizedTemp +=temperature;
+            summTemp +=temperature;
         }
-        System.out.println("Srednia temperatura wynosi " + (summarizedTemp/temp.length));
+        System.out.println("Srednia temperatura wynosi " + (summTemp/temp.length));
     }
 
 }
