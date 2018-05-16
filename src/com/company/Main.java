@@ -10,11 +10,11 @@ public class Main {
 
         double[] temp = new double[7];
 
-        Scanner inputScanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         for (int i =0; i < temp.length; i++){
             System.out.println("Podaj temperaturę na dany dzień " + (i+1) +" :");
-            temp[i] = inputScanner.nextDouble();
+            temp[i] = scanner.nextDouble();
             
         }
         double summTemp =0;
